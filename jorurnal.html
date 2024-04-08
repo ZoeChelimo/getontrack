@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Get On Track</h1>
+            <ul class="nav-links">
+                <li><a href="todolist.html">To Do List</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="habit.html">Habit Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="journal-header">
+      <h1 > Your Journal</h1>
+    </div>
+    <div class="cardjourn">
+        <form id="journal-form">
+            <label for="entry-name">Entry Name:</label><br>
+            <input type="text" id="entry-name" name="entry-name"><br>
+            <label for="entry-content">Your Thoughts:</label><br>
+            <textarea id="entry-content" name="entry-content" rows="4" cols="50"></textarea><br>
+            <button type="submit">Add Entry</button>
+        </form>
+    </div>
+    <div id="entries">
+    </div>
+    <div id="footer">
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Get On Track</p>
+            </div>
+        </footer>
+    </div>
+    <script src="journal.js"></script>
+</body>
+</html>

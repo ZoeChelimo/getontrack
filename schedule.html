@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Schedule Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Get On Track</h1>
+            <ul class="nav-links">
+                <li><a href="todolist.html">To-Do List</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jorurnal.html">Journal</a></li>
+                <li><a href="habit.html">Habit Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <h1>Schedule Planner</h1>
+  <div id="calendar"></div>
+  <div id="event-form">
+    <h2>Add Event</h2>
+    <input type="text" id="event-name" placeholder="Event Name">
+    <input type="datetime-local" id="event-time">
+    <button id="add-event-btn">Add Event</button>
+  </div>
+
+  <script src="schedule.js"></script>
+</body>
+</html>
